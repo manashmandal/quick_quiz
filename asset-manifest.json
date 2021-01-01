@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://manash.io/quick_quiz/static/css/main.74115aba.chunk.css",
-    "main.js": "https://manash.io/quick_quiz/static/js/main.b5926635.chunk.js",
-    "main.js.map": "https://manash.io/quick_quiz/static/js/main.b5926635.chunk.js.map",
+    "main.js": "https://manash.io/quick_quiz/static/js/main.7ceb33d3.chunk.js",
+    "main.js.map": "https://manash.io/quick_quiz/static/js/main.7ceb33d3.chunk.js.map",
     "runtime-main.js": "https://manash.io/quick_quiz/static/js/runtime-main.4bb7b3e2.js",
     "runtime-main.js.map": "https://manash.io/quick_quiz/static/js/runtime-main.4bb7b3e2.js.map",
     "static/js/2.062738c3.chunk.js": "https://manash.io/quick_quiz/static/js/2.062738c3.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.4bb7b3e2.js",
     "static/js/2.062738c3.chunk.js",
     "static/css/main.74115aba.chunk.css",
-    "static/js/main.b5926635.chunk.js"
+    "static/js/main.7ceb33d3.chunk.js"
   ]
 }
