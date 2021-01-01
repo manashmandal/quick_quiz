@@ -1,0 +1,177 @@
+$desktop: 840px;
+$tab: 425px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: #{$tab}) {
+        @content;
+    }
+}
+
+.card {
+    width: 250px;
+
+    @include tab {
+        width: 350px;
+    }
+
+    @include desktop {
+        width: 500px;
+    }
+
+    height: fit-content;
+
+    background-color: white;
+
+    //login card
+    &--login {
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 8px;
+
+        padding: 24px;
+
+
+        &__header {
+            display: flex;
+            align-items: center;
+
+            padding-bottom: 12px;
+            font-size: 24px;
+
+            img {
+                margin-right: 16px;
+            }
+        }
+
+        &__body {
+            display: flex;
+            flex-direction: column;
+
+            padding: 12px 0px;
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+        }
+    }
+
+
+    //question card
+    &--question {
+
+        margin-top: 70px;
+
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 8px;
+
+        // padding: 8px;
+
+        // @include tab {
+        //     padding: 16px;
+        // }
+
+        // @include desktop {
+        padding: 24px;
+        // }
+
+        &__header {
+            // padding-bottom: 4px;
+
+            // @include tab {
+            //     padding-bottom: 8px;
+            // }
+
+            // @include desktop {
+            padding-bottom: 12px;
+            // }
+        }
+
+        &__body {
+            display: flex;
+            flex-direction: column;
+
+
+            // padding: 4px 0px;
+
+            // @include tab {
+            //     padding: 8px 0px;
+            // }
+
+            // @include desktop {
+            padding: 12px 0px;
+            // }
+        }
+
+        &__footer {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+
+            // padding-top: 4px;
+
+            // @include tab {
+            //     padding-top: 8px;
+            // }
+
+            // @include desktop {
+            padding-top: 12px;
+            // }
+        }
+    }
+
+    //result card
+    &--result {
+
+        margin-top: 70px;
+
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid rgb(240, 240, 240);
+        border-radius: 8px;
+
+        padding: 24px;
+
+        &__header {
+            display: flex;
+            align-items: center;
+
+            padding-bottom: 12px;
+            font-size: 24px;
+
+            img {
+                margin-right: 16px;
+            }
+        }
+
+        &__body {
+            display: flex;
+            flex-direction: column;
+
+            padding: 12px 0px;
+        }
+
+        &__footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+        }
+    }
+}

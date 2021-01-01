@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAkBK,AAAD,wBAAe,CAAC;EAWZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EAEnB,MAAM,EAAE,KAAK;CAChB;;AAhBA,AACG,wBADW,CACX,GAAG,CAAC;EACA,SAAS,EAAE,qBAAqB;EAChC,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;CACd",
+    "sources": [
+        "adminAction.style.scss"
+    ],
+    "names": [],
+    "file": "adminAction.style.css"
+}

@@ -1,0 +1,51 @@
+.option {
+  cursor: pointer;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.option:hover {
+  background-color: #ceceeb;
+  color: #434364;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.option:active {
+  background-color: #6363b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.option--selected {
+  background-color: #6363b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.option__index {
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.option__text {
+  font-family: 'IBM Plex Serif', serif;
+  text-align: left;
+  font-size: 16px;
+}
+/*# sourceMappingURL=option.style.css.map */

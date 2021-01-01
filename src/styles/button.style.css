@@ -1,0 +1,298 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.btn--submit-answer {
+  padding: 8px 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #10aa18;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn--submit-answer:focus {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--submit-answer:active {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--submit-answer:hover {
+  background-color: #91d493;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--reset {
+  padding: 10px 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #3684e9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+
+.btn--reset:focus {
+  background-color: #3684e9;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--reset:active {
+  background-color: #3684e9;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--reset:hover {
+  background-color: rgba(54, 132, 233, 0.3);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--login {
+  padding: 10px 16px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #3684e9;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+
+.btn--login:focus {
+  background-color: #3684e9;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--login:active {
+  background-color: #3684e9;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--login:hover {
+  background-color: rgba(54, 132, 233, 0.3);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--sign-in {
+  cursor: pointer;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+
+.btn--sign-in:focus {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--sign-in:active {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--sign-in:hover {
+  background-color: #91d493;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--update-question {
+  cursor: pointer;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  margin-right: 16px;
+}
+
+.btn--update-question:focus {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--update-question:active {
+  background-color: #10aa18;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--update-question:hover {
+  background-color: #91d493;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--delete-question {
+  cursor: pointer;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid #ff1919;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ff1919;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+
+.btn--delete-question:focus {
+  background-color: white;
+  border: 1px solid #ff1919;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--delete-question:active {
+  background-color: white;
+  border: 1px solid #ff1919;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--delete-question:hover {
+  background-color: white;
+  border: 1px solid #ffaaaa;
+  color: #ffaaaa;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--open-modal {
+  margin-top: 90px;
+  cursor: pointer;
+  padding: 10px 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #00225c;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+  margin-right: 16px;
+}
+
+.btn--open-modal:focus {
+  background-color: #00225c;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--open-modal:active {
+  background-color: #00225c;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.btn--open-modal:hover {
+  background-color: #a6bee7;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+/*# sourceMappingURL=button.style.css.map */

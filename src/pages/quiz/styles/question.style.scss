@@ -1,0 +1,69 @@
+$desktop: 840px;
+$tab: 425px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: #{$tab}) {
+        @content;
+    }
+}
+
+.question {
+    display: flex;
+    align-items: center;
+
+    // margin-bottom: 4px;
+
+    // @include tab {
+    //     margin-bottom: 8px;
+    // }
+
+    // @include desktop {
+    margin-bottom: 16px;
+    // }
+
+    img {
+        // height: 16px;
+        // width: 16px;
+
+        // margin-right: 4px;
+
+
+        // @include tab {
+        //     height: 24px;
+        //     width: 24px;
+
+        //     margin-right: 8px;
+        // }
+
+        // @include desktop {
+        height: 32px;
+        width: 32px;
+
+        margin-right: 16px;
+        // }
+    }
+
+    span {
+        // font-weight: 300;
+        // font-size: 16px;
+        // line-height: 18px;
+
+        // @include tab {
+        //     font-weight: 400;
+        //     font-size: 18px;
+        //     line-height: 24px;
+        // }
+
+        // @include desktop {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        // }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAeA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EASnB,aAAa,EAAE,IAAI;CA0CtB;;AArDD,AAcI,SAdK,CAcL,GAAG,CAAC;EAeA,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EAEX,YAAY,EAAE,IAAI;CAErB;;AAlCL,AAoCI,SApCK,CAoCL,IAAI,CAAC;EAYD,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAEpB",
+    "sources": [
+        "question.style.scss"
+    ],
+    "names": [],
+    "file": "question.style.css"
+}

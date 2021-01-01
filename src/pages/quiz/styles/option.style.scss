@@ -1,0 +1,94 @@
+$desktop: 840px;
+$tab: 425px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: #{$tab}) {
+        @content;
+    }
+}
+
+.option {
+    cursor: pointer;
+
+    // padding: 2px 8px;
+    // margin-bottom: 2px;
+
+    // @include tab {
+    //     padding: 4px 8px;
+    //     margin-bottom: 4px;
+    // }
+
+    // @include desktop {
+    padding: 8px 16px;
+    margin-bottom: 8px;
+    // }
+
+    // width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+
+    background: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+
+    &:hover {
+        background-color: #ceceeb;
+        color: #434364;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    &:active {
+        background-color: #6363b6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    &--selected {
+        background-color: #6363b6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+    }
+
+    &__index {
+        // font-size: 14px;
+        // margin-right: 4px;
+
+        // @include tab {
+        //     font-size: 14px;
+        //     margin-right: 4px;
+        // }
+
+        // @include desktop {
+        font-size: 16px;
+        margin-right: 8px;
+        // }
+    }
+
+    &__text {
+        font-family: 'IBM Plex Serif', serif;
+        // font-size: 14px;
+
+        text-align: left;
+
+        // @include tab {
+        //     font-size: 14px;
+        // }
+
+        // @include desktop {
+        font-size: 16px;
+        // }
+    }
+}

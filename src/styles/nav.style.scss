@@ -1,0 +1,21 @@
+.nav {
+    position: fixed;
+    // padding: 24px;
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: flex-end;
+
+    .actions {
+        padding: 16px;
+
+        display: flex;
+        flex-direction: row;
+
+        .user-info {
+            padding: 8px 32px;
+            color: #1e3772;
+        }
+    }
+}

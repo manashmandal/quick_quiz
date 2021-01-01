@@ -1,0 +1,340 @@
+$desktop: 840px;
+$tab: 425px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: #{$tab}) {
+        @content;
+    }
+}
+
+
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+
+    //submit-answer button
+    &--submit-answer {
+        // padding: 4px 8px;
+
+        // @include tab {
+        //     padding: 6px 12px;
+        // }
+
+        // @include desktop {
+        padding: 8px 16px;
+        // }
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(16, 170, 24);
+        border-radius: 8px;
+
+        // font-size: 12px;
+        // line-height: 18px;
+
+        // @include tab {
+        //     font-size: 14px;
+        //     line-height: 20px;
+        // }
+
+        // @include desktop {
+        font-size: 16px;
+        line-height: 24px;
+        // }
+
+        font-family: 'IBM Plex Serif',
+            serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        color: white;
+
+        &:focus {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgb(145, 212, 147);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+
+    //reset button
+    &--reset {
+        padding: 10px 16px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(54, 132, 233);
+        border-radius: 8px;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        &:focus {
+            background-color: rgb(54, 132, 233);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(54, 132, 233);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgba(54, 132, 233, 0.3);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+    //login button
+    &--login {
+        padding: 10px 16px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(54, 132, 233);
+        border-radius: 8px;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        &:focus {
+            background-color: rgb(54, 132, 233);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(54, 132, 233);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgba(54, 132, 233, 0.3);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+
+    //Sign-in
+    &--sign-in {
+        cursor: pointer;
+        padding: 10px 20px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(16, 170, 24);
+        border: none;
+        border-radius: 8px;
+        outline: none;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        &:focus {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgb(145, 212, 147);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+
+    //update question
+    &--update-question {
+        cursor: pointer;
+        padding: 10px 20px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(16, 170, 24);
+        border: none;
+        border-radius: 8px;
+        outline: none;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        margin-right: 16px;
+
+        &:focus {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgb(145, 212, 147);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+
+    //delete question
+    &--delete-question {
+        cursor: pointer;
+        padding: 10px 20px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: white;
+        border: 1px solid rgb(255, 25, 25);
+        border-radius: 8px;
+        outline: none;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: rgb(255, 25, 25);
+
+        margin-top: 8px;
+        margin-right: 16px;
+
+        &:focus {
+            background-color: white;
+            border: 1px solid rgb(255, 25, 25);
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: white;
+            border: 1px solid rgb(255, 25, 25);
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: white;
+            border: 1px solid rgb(255, 170, 170);
+            color: rgb(255, 170, 170);
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+    //open modal button
+    &--open-modal {
+        margin-top: 90px;
+        cursor: pointer;
+        padding: 10px 20px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: #00225c;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        margin-right: 16px;
+
+        &:focus {
+            background-color: #00225c;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: #00225c;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: #a6bee7;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+}

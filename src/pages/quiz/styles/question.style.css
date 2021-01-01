@@ -1,0 +1,22 @@
+.question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+
+.question img {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+}
+
+.question span {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+/*# sourceMappingURL=question.style.css.map */

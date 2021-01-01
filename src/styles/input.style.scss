@@ -1,0 +1,57 @@
+.input {
+    border: none;
+    outline: none;
+    background: white;
+
+    margin: 8px 0px;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1px;
+
+    &:focus {
+        border: none;
+        outline: none;
+        background: white;
+    }
+
+
+    &:active {
+        border: none;
+        outline: none;
+        background: white;
+    }
+
+
+    &:hover {
+        border: none;
+        outline: none;
+        background: white;
+    }
+
+    &--text {
+        &--login {
+            border: 1px solid #407bff;
+        }
+
+        &--question {
+            border: 1px solid #a6ff9a;
+
+        }
+
+        &--option {
+            border: 1px solid #a6ff9a;
+            margin: 8px 8px 8px 0px;
+        }
+    }
+
+    &--password {
+        &--login {
+            border: 1px solid #407bff;
+        }
+    }
+
+
+}

@@ -1,0 +1,16 @@
+.result {
+    display: flex;
+    flex-direction: column;
+
+    &__item {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-left: 16px;
+            height: 16px;
+            width: 16px;
+        }
+    }
+}

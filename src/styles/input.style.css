@@ -1,0 +1,46 @@
+.input {
+  border: none;
+  outline: none;
+  background: white;
+  margin: 8px 0px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.input:active {
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.input:hover {
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.input--text--login {
+  border: 1px solid #407bff;
+}
+
+.input--text--question {
+  border: 1px solid #a6ff9a;
+}
+
+.input--text--option {
+  border: 1px solid #a6ff9a;
+  margin: 8px 8px 8px 0px;
+}
+
+.input--password--login {
+  border: 1px solid #407bff;
+}
+/*# sourceMappingURL=input.style.css.map */

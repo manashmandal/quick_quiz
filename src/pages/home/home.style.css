@@ -1,0 +1,110 @@
+.container--home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 840px) {
+  .container--home {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.container--home #bg {
+  -webkit-clip-path: circle(50% at 92% 6%);
+          clip-path: circle(50% at 92% 6%);
+  background-color: #d2e3ff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.container--home .welcome-home {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 24px;
+}
+
+.container--home .welcome-home .intro {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.container--home .welcome-home .intro span {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #407bff;
+}
+
+.container--home .welcome-home .description {
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.container--home .banner-home {
+  margin-top: 90px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 840px) {
+  .container--home .banner-home {
+    padding: 24px;
+  }
+}
+
+.container--home .banner-home img {
+  height: 250px;
+}
+
+@media (min-width: 840px) {
+  .container--home .banner-home img {
+    height: 500px;
+  }
+}
+/*# sourceMappingURL=home.style.css.map */

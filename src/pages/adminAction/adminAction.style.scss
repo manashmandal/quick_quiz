@@ -1,0 +1,36 @@
+$desktop: 840px;
+$tab: 425px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media (min-width: #{$tab}) {
+        @content;
+    }
+}
+
+.container {
+
+    //quiz container
+    &--admin-action {
+        #bg {
+            clip-path: circle(50% at 92% 6%);
+            background-color: #e0fcdc;
+            width: 100%;
+            height: 100%;
+
+            position: absolute;
+            z-index: -1;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 100vh;
+    }
+}

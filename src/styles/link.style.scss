@@ -1,0 +1,61 @@
+.link {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    //Sign-in
+    &--sign-in {
+        cursor: pointer;
+        padding: 10px 20px;
+
+        width: fit-content;
+        height: fit-content;
+
+        background-color: rgb(16, 170, 24);
+        border: none;
+        border-radius: 8px;
+        outline: none;
+
+        font-size: 16px;
+        font-family: 'IBM Plex Serif', serif;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 24px;
+        color: white;
+
+        &:focus {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:active {
+            background-color: rgb(16, 170, 24);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        &:hover {
+            background-color: rgb(145, 212, 147);
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+    }
+
+
+    //nav-link
+    &--nav {
+        background-color: rgba(255, 255, 255, 0);
+        color: #00225c;
+    }
+}
