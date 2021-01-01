@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "https://manash.io/quick_quiz/static/css/main.74115aba.chunk.css",
-    "main.js": "https://manash.io/quick_quiz/static/js/main.7ceb33d3.chunk.js",
-    "main.js.map": "https://manash.io/quick_quiz/static/js/main.7ceb33d3.chunk.js.map",
+    "main.js": "https://manash.io/quick_quiz/static/js/main.9b7edfe0.chunk.js",
+    "main.js.map": "https://manash.io/quick_quiz/static/js/main.9b7edfe0.chunk.js.map",
     "runtime-main.js": "https://manash.io/quick_quiz/static/js/runtime-main.4bb7b3e2.js",
     "runtime-main.js.map": "https://manash.io/quick_quiz/static/js/runtime-main.4bb7b3e2.js.map",
-    "static/js/2.062738c3.chunk.js": "https://manash.io/quick_quiz/static/js/2.062738c3.chunk.js",
-    "static/js/2.062738c3.chunk.js.map": "https://manash.io/quick_quiz/static/js/2.062738c3.chunk.js.map",
+    "static/js/2.cab6c3a0.chunk.js": "https://manash.io/quick_quiz/static/js/2.cab6c3a0.chunk.js",
+    "static/js/2.cab6c3a0.chunk.js.map": "https://manash.io/quick_quiz/static/js/2.cab6c3a0.chunk.js.map",
     "static/js/3.6b3c8ca5.chunk.js": "https://manash.io/quick_quiz/static/js/3.6b3c8ca5.chunk.js",
     "static/js/3.6b3c8ca5.chunk.js.map": "https://manash.io/quick_quiz/static/js/3.6b3c8ca5.chunk.js.map",
     "static/css/4.4d4bd1e0.chunk.css": "https://manash.io/quick_quiz/static/css/4.4d4bd1e0.chunk.css",
@@ -25,15 +25,15 @@
     "static/css/5.10b1a01e.chunk.css.map": "https://manash.io/quick_quiz/static/css/5.10b1a01e.chunk.css.map",
     "static/css/6.8fc969f6.chunk.css.map": "https://manash.io/quick_quiz/static/css/6.8fc969f6.chunk.css.map",
     "static/css/main.74115aba.chunk.css.map": "https://manash.io/quick_quiz/static/css/main.74115aba.chunk.css.map",
-    "static/js/2.062738c3.chunk.js.LICENSE.txt": "https://manash.io/quick_quiz/static/js/2.062738c3.chunk.js.LICENSE.txt",
+    "static/js/2.cab6c3a0.chunk.js.LICENSE.txt": "https://manash.io/quick_quiz/static/js/2.cab6c3a0.chunk.js.LICENSE.txt",
     "static/media/home_banner.e63ac4f2.svg": "https://manash.io/quick_quiz/static/media/home_banner.e63ac4f2.svg",
     "static/media/question.1757246b.svg": "https://manash.io/quick_quiz/static/media/question.1757246b.svg",
     "static/media/result_banner.212ce656.svg": "https://manash.io/quick_quiz/static/media/result_banner.212ce656.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4bb7b3e2.js",
-    "static/js/2.062738c3.chunk.js",
+    "static/js/2.cab6c3a0.chunk.js",
     "static/css/main.74115aba.chunk.css",
-    "static/js/main.7ceb33d3.chunk.js"
+    "static/js/main.9b7edfe0.chunk.js"
   ]
 }
