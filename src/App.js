@@ -1,37 +1,36 @@
-import React from 'react';
+import React from "react";
 
-import Loadable from 'react-loadable';
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import Loadable from "react-loadable";
+import { Route, Switch, HashRouter as Router } from "react-router-dom";
 
-import Provider from './store/provider'
-import rootReducer from './reducer/rootReducer'
+import Provider from "./store/provider";
+import rootReducer from "./reducer/rootReducer";
 
-import PrivateRoute from './route/privateRoute'
-import AdminRoute from './route/adminRoute'
+import PrivateRoute from "./route/privateRoute";
+import AdminRoute from "./route/adminRoute";
 
-import Home from './pages/home'
-
+import Home from "./pages/home";
 
 const Quiz = Loadable({
-  loader: () => import('./pages/quiz'),
-  loading: () => <h3>Loading...</h3>
+  loader: () => import("./pages/quiz"),
+  loading: () => <h3>Loading...</h3>,
 });
 
 const AdminAction = Loadable({
-  loader: () => import('./pages/adminAction'),
-  loading: () => <h3>Loading...</h3>
-})
+  loader: () => import("./pages/adminAction"),
+  loading: () => <h3>Loading...</h3>,
+});
 
 const Login = Loadable({
-  loader: () => import('./pages/login'),
-  loading: () => <h3>Loading...</h3>
-})
+  loader: () => import("./pages/login"),
+  loading: () => <h3>Loading...</h3>,
+});
 
 function App() {
   return (
     <Provider rootReducer={rootReducer}>
       <div className="App">
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route path="/" exact component={Home} />
             <PrivateRoute path="/quiz" exact component={Quiz} />
